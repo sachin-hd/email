@@ -34,7 +34,7 @@ a[x-apple-data-detectors] {
   text-decoration: inherit !important;
 }
 
-table {
+table  {
   border-collapse: collapse;
 }
 
@@ -44,3 +44,24 @@ sup {
 }
 
 
+.ReadMsgBody {
+  width: 100%;
+  background-color: #ffffff;
+}
+.ExternalClass {
+  width: 100%;
+  background-color: #ffffff;
+}
+body {
+  width: 100%;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: Arial, sans-serif, Helvetica;
+}
+
+.default-font{ 
+  font-size: 12px !important;
+  line-height: 14px !important;
+}
