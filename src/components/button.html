@@ -1,17 +1,19 @@
 <script props>
   // Please look at READ ME before first use
   module.exports = {
-    width: props.width || "100",
+    width: props.width || "310",
     leading: props.leading || "20",
-    padding: props.padding || "10px 20px",
-    height: props.height || "40",
-    bgColor: props.bgColor || "#000000",
-    rounded: props.rounded || "100",
+    padding: props.padding || "10px 25px",
+    height: props.height || "46",
+    bgColor: props.bgColor || "#008080",
+    rounded: props.rounded || "12",
     href: props.href || "#",
     borderWidth: props.borderWidth || "0",
     borderColor: props.borderColor || "#000000",
     verticalAlign: props.verticalAlign || "middle",
-    class: props.class
+    class: props.class,
+    textColor: props.textColor || "#ffffff",
+    fontSize: props.fontSize || "18",
   };
 </script>
 
@@ -44,6 +46,9 @@
     text-align: center;
     padding: [[padding]];
     mso-hide: all;
+    color: [[textColor]];
+    font-weight: [[`600`]];
+    font-size: [[`${fontSize}px`]];
   "
 >
 <content/>
