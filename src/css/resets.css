@@ -77,7 +77,10 @@ body {
   font-size: 14px !important;
   line-height: 16px !important;
 }
-
+.default-font-3{
+  font-size: 16px !important;
+  line-height: 18px !important;
+}
 .header-desc{
   max-width: 500px !important;
   text-align: center !important;
